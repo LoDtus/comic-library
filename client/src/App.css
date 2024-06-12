@@ -46,3 +46,23 @@ body {
     transition: transform 0.2s ease;
     transform: translateY(-10px);
 }
+.nonBorder:last-of-type {
+    border: none;
+}
+.listChapter::-webkit-scrollbar {
+    width: 10px;
+}
+.listChapter::-webkit-scrollbar-track {
+    background-color: rgb(239, 244, 249);
+    border-radius: 30px;
+}
+.listChapter::-webkit-scrollbar-thumb {
+    background-color: rgb(202, 212, 226);
+    border-radius: 30px;
+    border: 2px solid rgb(239, 244, 249);
+}
+.listChapter::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    transition-duration: 200ms;
+    background-color: rgb(193, 193, 193);
+}
