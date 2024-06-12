@@ -5,17 +5,17 @@ function Home() {
     for (let i=0; i<10; i++) {
         listPopular.push(
             <Link to='/comic-detail'
-                className="rounded-lg overflow-hidden mx-2 my-2 hover:shadow-lg duration-200">
+                className="itemComic relative rounded-lg overflow-hidden mx-2 my-2 hover:shadow-lg duration-200">
                 <div className="rounded-lg overflow-hidden">
                     <img src={i<9 ? `./assets/posters/poster0${i+1}.jpg` : `./assets/posters/poster${i+1}.jpg`} alt=""
-                        className=""
+                        className="img-itemComic"
                     />
                 </div>
                 
-                <div className="mx-2">
-                    <div className="text-xl font-semibold">My Hero Academia</div>
+                <div className="mx-3">
+                    <div className="text-xl font-semibold my-1">My Hero Academia</div>
                     <div className="text-[#7a7a7a] font-semibold">Tác giả / Tác giả</div>
-                    <div className="flex items-center">
+                    <div className="flex items-center mb-2">
                         <div className="text-[#8d8d8d]">Chapter 203</div>
                         <svg className="w-1 h-1 fill-[#8d8d8d] mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>

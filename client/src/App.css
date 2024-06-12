@@ -42,3 +42,7 @@ p, span, div, a {
 body {
     margin: 0;
 }
+.itemComic:hover .img-itemComic {
+    transition: transform 0.2s ease;
+    transform: translateY(-10px);
+}

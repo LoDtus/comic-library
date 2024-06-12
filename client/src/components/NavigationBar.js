@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function NavigationBar() {
 
     return (
-        <div className="navigationBar basis-[20%] flex flex-col border-x bg-white h-full">
+        <div className="navigationBar basis-[20%] flex flex-col border-x bg-white sticky h-[100vh] top-0">
             <div className="avatar-navigationBar flex flex-col items-center py-5 border-b px-5">
                 <img
                     src="https://i.pinimg.com/564x/4e/a4/76/4ea476c2f7d4136c1283297976a248cd.jpg" 
